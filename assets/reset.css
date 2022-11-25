@@ -1,0 +1,206 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-image: url("../assets/E3v.gif");
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 200%;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  
+  nav a {
+    color: #b9c6ae;
+    font-weight: bold;
+  }
+
+  .picture-img a {
+    color: #b9c6ae;
+    font-size: 40px;
+  }
+
+  .picture-img a:hover {
+color: aqua;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+  }
+  
+  section {
+    flex: 1 1 0;
+    padding-right: 5%;
+  }
+  
+  article {
+    border-bottom: 1px solid #d8a47f;
+  }
+  
+  article p {
+    margin: 2% 0;
+    font-size: 110%;
+  }
+ p {
+    width: 15px;
+    height: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+ 
+ }
+  .hero {
+    height: 400px;
+    width: 105%;
+    margin-bottom: 25px;
+    background-image: url("../images/marek-piwnicki-m-V1ICQC0_Y-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+ h2 {
+  color: #fff;
+ }
+
+.paragraph-image {
+  color: #b9c6ae;
+  max-height: 200px;
+}
+
+/*
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid rebeccapurple;
+    display:block;
+    margin: auto;
+    color: black;
+    padding: .4em;
+    width: 300px;
+    height: 300px;
+}
+*/
+
+.box1 {
+   background-color: red ;
+}
+.box2 {
+   background-color: green ;
+}
+.box3 {
+     background-color: violet ;
+}
+.box4 {
+   background-color: blue ;
+}
+.box5 {
+     background-color: lime ;
+}
+.box6 {
+   background-color: pink ;
+}
+.box7 {
+  background-color:lightblue ;
+}
+.box8 {
+   background-color: purple ;
+}
+
+.content {
+   color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+    float: right;
+    margin-left: 1000px;
+  
+}
+.content :hover {
+    color: violet;
+    background-color:#6f4323 ;
+}
+.float {
+    width: 500px;
+    max-height: 300px;
+    float: left;
+    margin-right: 500px;
+  
+}
+
+
+#picture-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+#picture-2 {
+    display: flex;
+   
+}
+
+#picture-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#picture-4 {
+    display: flex;
+  
+}
+
+#picture-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #13293d;
+    color: #fff;
+  }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+}
+  footer span ::-ms-thumb {
+    position: relative;
+    text-decoration: underline;
+    color: #00f;
+    cursor: grab;
+  }
