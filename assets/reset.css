@@ -80,7 +80,21 @@ color: aqua;
     background-image: url("../images/marek-piwnicki-m-V1ICQC0_Y-unsplash.jpg");
     background-size: cover;
     background-position: center;
+
 }
+
+.hero ul {
+  width: 15px;
+  height: 15px;
+  display: inline;
+  text-align: center;
+  color: #b9c6ae;
+  width: 8mm;
+  text-shadow: 2px 4px 4px burlywood;
+  font-size: 20px;
+  
+}
+
  h2 {
   color: #fff;
  }
