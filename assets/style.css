@@ -1,9 +1,7 @@
-body {
-
-    display: flex; font-size: 22px;
-    background-image: url("../assets/E3v.gif");
- 
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
   
   header {
     font-size: 18px;
@@ -87,7 +85,8 @@ min-width: fit-content ;
     float: left;
     margin-right: 500px;*/
     background-size: cover;
-}
+  }
+
 .hero a {
   size: 50px;
   width: 300px;
@@ -100,7 +99,7 @@ min-width: fit-content ;
 .hero :hover {
   color: #13293d;
 }
-.hero p {
+/*.hero p {
 size: 50px;
   display: inline;
   text-align: center;
@@ -109,15 +108,15 @@ size: 50px;
   text-shadow: 2px 4px 4px burlywood;
   font-size: 20px;
   text-overflow: clip; 
-}
+}*/
  
-p {
+/*p {
   display: inline;
   justify-content: space-between;
   white-space: 3px;
   font-size: 32px;
+}*/
 
-}
  h2 {
   color: #fff;
  }
@@ -181,6 +180,51 @@ p {
     background-color:#6f4323 ;
 }
 
+.toltip {
+  width: 500px;
+  height: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.toltip  {
+position: relative;
+cursor: pointer;
+padding: 7px;
+font-size: 25px;
+font-weight: bold;
+font-family: sans-serif;
+}
+ 
+.tooltiptext {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: rotateX('50%');
+  background-color: black;
+  color: #fff;
+  white-space: nowrap ;
+padding: 10px 15px;
+border-radius: 7px;
+visibility: hidden;
+opacity: 0;
+transition: opacity 0.5s ease;
+}
+.tooltiptext::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: transLatex('-50%');
+  border: #13293d #000 #0000 #0000;
+}
+
+.toltip:hover .tooltiptext{
+  top: -130%;
+  visibility: visible;
+  opacity: 1;
+}
 .float {
    /* width: 300px;
   /*  max-height: 300px;
