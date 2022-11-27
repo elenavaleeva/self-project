@@ -1,8 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-  
+
+   body {
+    background-image: url("./E3v.gif");
+   }
+
   header {
     font-size: 18px;
     display: flex;
@@ -33,6 +33,7 @@
     font-size: 40px; 
   }
 
+
   .picture-img a:hover {
 color: aqua;
   }
@@ -53,11 +54,15 @@ color: aqua;
     background-size: cover;
     background-position: center;
 }
-.subheader {
+.top {
+  display: flex;
   size: 50px;
   width: 300px;
   font-size: 40px; 
-     background-size: cover;
+  display:inline-table;
+  margin-left: 700px;
+ 
+
   }
 
 .hero a {
@@ -65,9 +70,12 @@ color: aqua;
   width: 300px;
   font-size: 40px;
    background-size: cover;
+   text-align: center;
+ display:inline-block ;
+
 }
 .hero :hover {
-  color: #13293d;
+  color: #b2b3b4;
 }
 
  h2 {
@@ -104,15 +112,25 @@ color: aqua;
    background-color: rgb(187, 194, 255) ;
 }
 
-.content {
+ .content {
    color: black;
    font-size: 50px;
     text-align: center;
     font-family: sans-serif;
     text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
     float: right;
-       margin-left: 1000px;
+   margin-left: 1000px;
 }
+ .together {
+  display: flex;
+ color: #d8a47f;
+ font-size: 50px;
+ float: left;
+ margin-right: 1000px;
+ display: inline;
+ 
+}
+
 
 .content :hover {
     color: violet;
@@ -121,11 +139,10 @@ color: aqua;
 
 .toltip {
   width: 500px;
-  height:10px;
-display: flex;
-align-items: flex-end;
+  height: 10px;
+
+align-items: top;
 justify-content: right;
-margin: top;
 margin-left: 500px;
 }
 
@@ -168,14 +185,16 @@ transition: opacity 0.5s ease;
   opacity: 1;
 }
 
+ .HTML  {
+margin-bottom: 0px;
+}
 .HTML {
   width: 500px;
   height: 10px;
 display: flex;
-align-items: flex-end;
+align-items: top;
 justify-content: right;
-margin: top;
-margin-left: 0;
+margin-left: 500px;
 }
 
 .HTML  {
@@ -269,8 +288,9 @@ transition: opacity 0.5s ease;
   width: 500px;
   height: 10px;
 display: flex;
-align-items: center;
-justify-content: center;
+align-items: top;
+justify-content: right;
+margin-left: 500px;
 }
 
 .CSS  {
@@ -314,14 +334,13 @@ transition: opacity 0.5s ease;
 
 
 .float {
+  width: 300px;
+  height: 300px;
  background-size: cover;
+ background-position: initial ;
   
 }
-.pictures p {
-  display: flex;
-  display: inline-block;
-  font-size: 16px;
-}
+
 section {
   width: 105%;
   height: 100%;
@@ -333,8 +352,12 @@ section {
 
 #picture-1 {
   display: flex;
-  padding: 1%;
-    background-color: #0255a3;
+  align-items: center;
+  justify-content: center;
+  background-color: #0258a9;
+  background-size: cover;
+  background-position: center;
+
   }
 
 #picture-2 {
