@@ -123,11 +123,11 @@ color: aqua;
 }
  .together {
   display: flex;
- color: #d8a47f;
+ color: #804e2b;
  font-size: 50px;
  float: left;
  margin-right: 1000px;
- display: inline;
+ display: inline-table;
  
 }
 
@@ -140,7 +140,6 @@ color: aqua;
 .toltip {
   width: 500px;
   height: 10px;
-
 align-items: top;
 justify-content: right;
 margin-left: 500px;
@@ -185,16 +184,14 @@ transition: opacity 0.5s ease;
   opacity: 1;
 }
 
- .HTML  {
-margin-bottom: 0px;
-}
+
 .HTML {
   width: 500px;
   height: 10px;
 display: flex;
 align-items: top;
-justify-content: right;
-margin-left: 500px;
+justify-content: center;
+margin-left: 400px;
 }
 
 .HTML  {
@@ -240,9 +237,9 @@ transition: opacity 0.5s ease;
   width: 500px;
   height: 10px;
 display: flex;
-align-items: top;
-justify-content: right;
-margin-left: 500px;
+align-items: bottom;
+justify-content: left;
+margin-left: 300px;
 }
 
 .SQL  {
@@ -288,9 +285,9 @@ transition: opacity 0.5s ease;
   width: 500px;
   height: 10px;
 display: flex;
-align-items: top;
+align-items: bottom;
 justify-content: right;
-margin-left: 500px;
+margin-left: 200px;
 }
 
 .CSS  {
