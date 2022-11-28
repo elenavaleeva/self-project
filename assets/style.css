@@ -3,7 +3,7 @@
    margin: 0%;
    }
    body {
-   background-image: url("./9Yym.gif");
+   background-image: url("./WeakCarefreeCurlew-size_restricted.gif");
 
    }
 
@@ -34,6 +34,7 @@
   color: #bfc1be;
   font-size: 40px; 
   padding: 100px;
+  text-shadow:  -10px -10px 5px rgb(89, 89, 89);
   }
   nav a:hover {
   color: rgb(47, 21, 21);
@@ -51,7 +52,7 @@
   height: 400px;
  float: left;
   margin-left: 20px;
-   box-shadow: -20px -20px 10px gray;
+   box-shadow: -20px -20px 15px rgb(66, 62, 62);
    
   } 
  
@@ -89,7 +90,7 @@
   font-size: 40px;
   background-size: cover;
   text-align:center;
-
+  text-shadow:  -10px -10px 5px gray;
 
 }
 .hero :hover {
@@ -147,6 +148,7 @@
   text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
   float: right;
   margin-left: 1000px;
+  text-shadow:  -10px -10px 5px gray;
 }
 
 .content :hover {
@@ -160,6 +162,7 @@
  margin-top: 0;
  justify-content: right;
  margin-left: 500px;
+ text-shadow:  -10px -10px 5px gray;
 }
 
 .toltip  {
@@ -185,6 +188,7 @@ border-radius: 7px;
 visibility: hidden;
 opacity: 0;
 transition: opacity 0.5s ease;
+
 }
 .tooltiptext::before{
   content: "";
@@ -207,6 +211,7 @@ display: flex;
 align-items: top;
 justify-content: center;
 margin-left: 400px;
+text-shadow:  -10px -10px 5px gray;
 }
 
 .HTML  {
@@ -253,6 +258,7 @@ transition: opacity 0.5s ease;
 margin-top: 0;
 justify-content: right;
 margin-left: 500px;
+text-shadow:  -10px -10px 5px gray;
 }
 
 .SQL  {
@@ -299,6 +305,7 @@ display: flex;
 align-items: bottom;
 justify-content: right;
 margin-left: 200px;
+text-shadow:  -10px -10px 5px gray;
 }
 
 .CSS  {
@@ -404,11 +411,9 @@ transition: opacity 0.5s ease;
   background-position: center;
 }
 
-.footer  {
-  height: 100px;
- 
-}
 .footer {
+  height: 100px;
+  font-size: 20px;
   display: flex;
     justify-content: space-between;
     padding: 1%;
