@@ -1,82 +1,104 @@
 
+   * {
+   margin: 0%;
+   }
    body {
-    background-image: url("./E3v.gif");
+   background-image: url("./E3v.gif");
    }
 
   header {
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #13293d;
-    color: #fff;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
   }
-  
+
   h1 {
-    font-size: 200%;
+  font-size: 200%;
   }
-  
+
   nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
   }
-  
   nav a {
-    color: #b9c6ae;
-    font-weight: bold;
+  color: #b9c6ae;
+  font-weight: bold;
   }
-
   .picture-img a {
-    color: #b9c6ae;
-    font-size: 40px; 
+  color: #b9c6ae;
+  font-size: 40px; 
+  padding: 100px;
   }
-
-
-  .picture-img a:hover {
-color: aqua;
-  }
-  
   nav a:hover {
-    color: #fff;
+  color: #fff;
+  }
+  article {
+  border-bottom: 1px solid #d8a47f;
   }
 
-  article {
-    border-bottom: 1px solid #d8a47f;
+  span {
+  color: #d8a47f;
   }
+
+  img {
+  width: 300px;
+  height: 400px;
+ float: left;
+   padding: 0 10px 0 0;
+  } 
+ 
+  .picture-img a:hover {
+  color: aqua;
+        }
 
   .hero {
-    height: 400px;
-    width: 105%;
-    margin-bottom: 25px;
-    background-image: url("../images/marek-piwnicki-m-V1ICQC0_Y-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
+  margin: 150px auto;
+  justify-content: center; 
+  color: #d8a47f;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/marek-piwnicki-m-V1ICQC0_Y-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
 }
+.text { 
+  display: inline-table;
+  justify-content: center;
+  size: 50px; 
+  width:80%; 
+  font-size: 40px;  
+  background-size: cover; 
+  text-align:justify;
+  }   
+
+.hero a {
+  size: 50px;
+  width: 300px;
+  font-size: 40px;
+  background-size: cover;
+  text-align:center;
+
+
+}
+.hero :hover {
+ color: #b2b3b4;
+}
+
 .top {
   display: flex;
   size: 50px;
   width: 300px;
   font-size: 40px; 
   display:inline-table;
-  margin-left: 700px;
- 
-
+  margin-left: 500px;
   }
-
-.hero a {
-  size: 50px;
-  width: 300px;
-  font-size: 40px;
-   background-size: cover;
-   text-align: center;
- display:inline-block ;
-
-}
-.hero :hover {
-  color: #b2b3b4;
-}
 
  h2 {
   color: #fff;
@@ -88,81 +110,71 @@ color: aqua;
 }
 
 .box1 {
-   background-color: rgb(2, 0, 84) ;
+  background-color: rgb(2, 0, 84) ;
 }
 .box2 {
-   background-color: rgb(11, 5, 127) ;
+  background-color: rgb(11, 5, 127) ;
 }
 .box3 {
-     background-color: rgb(7, 27, 180) ;
+  background-color: rgb(7, 27, 180) ;
 }
 .box4 {
-   background-color: rgb(5, 5, 215) ;
+  background-color: rgb(5, 5, 215) ;
 }
 .box5 {
-     background-color: rgb(28, 50, 247) ;
+  background-color: rgb(28, 50, 247) ;
 }
 .box6 {
-   background-color: rgb(83, 100, 251) ;
+  background-color: rgb(83, 100, 251) ;
 }
 .box7 {
   background-color:rgb(118, 142, 250) ;
 }
 .box8 {
-   background-color: rgb(187, 194, 255) ;
+  background-color: rgb(187, 194, 255) ;
 }
 
  .content {
-   color: black;
-   font-size: 50px;
-    text-align: center;
-    font-family: sans-serif;
-    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
-    float: right;
-   margin-left: 1000px;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+  float: right;
+  margin-left: 1000px;
 }
- .together {
-  display: flex;
- color: #804e2b;
- font-size: 50px;
- float: left;
- margin-right: 1000px;
- display: inline-table;
- 
-}
-
 
 .content :hover {
-    color: violet;
-    background-color:#6f4323 ;
+  color: violet;
+  background-color:#6f4323 ;
 }
 
 .toltip {
-  width: 500px;
-  height: 10px;
-align-items: top;
-justify-content: right;
-margin-left: 500px;
+ width: 500px;
+ height: 10px;
+ margin-top: 0;
+ justify-content: right;
+ margin-left: 500px;
 }
 
 .toltip  {
 position: relative;
 cursor: pointer;
-padding: 7px;
+/*padding: 7px;*/
 font-size: 50px;
 font-weight: bold;
 font-family: sans-serif;
 }
  
 .tooltiptext {
-  font-size: 25px;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: rotateX('50%');
-  background-color: black;
-  color: #fff;
-  white-space: nowrap ;
+font-size: 25px;
+position: absolute;
+left: 50%;
+top: 0;
+transform: rotateX('50%');
+background-color: black;
+color: #fff;
+white-space: nowrap ;
 padding: 10px 15px;
 border-radius: 7px;
 visibility: hidden;
@@ -175,15 +187,13 @@ transition: opacity 0.5s ease;
   left: 50%;
   top: 100%;
   transform: transLatex('-50%');
-  border: #13293d #000 #0000 #0000;
 }
 
-.toltip:hover .tooltiptext{
+.toltip:hover .tooltiptext {
   top: 100%;
   visibility: visible;
   opacity: 1;
 }
-
 
 .HTML {
   width: 500px;
@@ -224,7 +234,6 @@ transition: opacity 0.5s ease;
   left: 50%;
   top: 100%;
   transform: transLatex('-50%');
-  border: #13293d #000 #0000 #0000;
 }
 
 .HTML:hover .HTMLtext{
@@ -236,16 +245,14 @@ transition: opacity 0.5s ease;
 .SQL {
   width: 500px;
   height: 10px;
-display: flex;
-align-items: bottom;
-justify-content: left;
-margin-left: 300px;
+margin-top: 0;
+justify-content: right;
+margin-left: 500px;
 }
 
 .SQL  {
 position: relative;
 cursor: pointer;
-padding: 7px;
 font-size: 50px;
 font-weight: bold;
 font-family: sans-serif;
@@ -272,11 +279,10 @@ transition: opacity 0.5s ease;
   left: 50%;
   top: 100%;
   transform: transLatex('-50%');
-  border: #13293d #000 #0000 #0000;
 }
 
-.SQL:hover .SQLtext{
-  top: -130%;
+.SQL:hover .SQLtext {
+  top: 100%;
   visibility: visible;
   opacity: 1;
 }
@@ -304,9 +310,9 @@ font-family: sans-serif;
   position: absolute;
   left: 50%;
   top: 0;
-  transform: rotateX('50%');
+ /* transform: rotateX('50%');*/
   background-color: black;
-  color: #fff;
+  color: bisque;
   white-space: nowrap ;
 padding: 10px 15px;
 border-radius: 7px;
@@ -314,16 +320,14 @@ visibility: hidden;
 opacity: 0;
 transition: opacity 0.5s ease;
 }
-.CSStext::before{
+.CSStext::before {
   content: "";
   position: absolute;
   left: 50%;
   top: 100%;
-  transform: transLatex('-50%');
-  border: #13293d #000 #0000 #0000;
 }
 
-.CSS:hover .CSStext{
+.CSS:hover .CSStext {
   top: -130%;
   visibility: visible;
   opacity: 1;
@@ -331,30 +335,33 @@ transition: opacity 0.5s ease;
 
 
 .float {
+ 
   width: 300px;
   height: 300px;
  background-size: cover;
- background-position: initial ;
-  
+ background-position: initial ; 
+ box-shadow: 30 30 20 #707d89;
 }
 
-section {
+.pictures {
+  padding: 0%;
   width: 105%;
   height: 100%;
   display: inline-block;
   font-size: 16px;
   color: #d8a47f;
+
  }
  
 
 #picture-1 {
+
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #0258a9;
   background-size: cover;
   background-position: center;
-
   }
 
 #picture-2 {
@@ -392,8 +399,8 @@ section {
   background-position: center;
 }
 
-
-footer {
+.footer  {
+  height: 100px;
     display: flex;
     justify-content: center;
     padding: 2%;
@@ -401,15 +408,14 @@ footer {
     color: #fff;
   }
 
-footer{
-    display: flex;
+.footer  {
+  display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1%;
     background-color: #13293d;
     color: #fff;
 }
-  footer span ::-ms-thumb {
+  .footer span ::-ms-thumb {
     position: relative;
     text-decoration: underline;
     color: #00f;
