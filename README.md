@@ -16,3 +16,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 1 Looks like all in order. 
+
+2 https://elenavaleeva.github.io/self-project/
+
+3 https://github.com/elenavaleeva/self-project
