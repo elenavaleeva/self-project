@@ -50,9 +50,9 @@
   img {
   width: 300px;
   height: 400px;
- float: left;
+  float: left;
   margin-left: 20px;
-   box-shadow: -20px -20px 15px rgb(66, 62, 62);
+  box-shadow: -20px -20px 15px rgb(66, 62, 62);
    
   } 
  
@@ -168,7 +168,6 @@
 .toltip  {
 position: relative;
 cursor: pointer;
-/*padding: 7px;*/
 font-size: 50px;
 font-weight: bold;
 font-family: sans-serif;
@@ -207,11 +206,11 @@ transition: opacity 0.5s ease;
 .HTML {
   width: 500px;
   height: 10px;
-display: flex;
-align-items: top;
-justify-content: center;
-margin-left: 400px;
-text-shadow:  -10px -10px 5px gray;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  margin-left: 400px;
+  text-shadow:  -10px -10px 5px gray;
 }
 
 .HTML  {
@@ -232,11 +231,11 @@ font-family: sans-serif;
   background-color: black;
   color: rgb(215, 206, 206);
   white-space: nowrap ;
-padding: 10px 15px;
-border-radius: 7px;
-visibility: hidden;
-opacity: 0;
-transition: opacity 0.5s ease;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 .HTMLtext::before{
   content: "";
@@ -255,10 +254,10 @@ transition: opacity 0.5s ease;
 .SQL {
   width: 500px;
   height: 10px;
-margin-top: 0;
-justify-content: right;
-margin-left: 500px;
-text-shadow:  -10px -10px 5px gray;
+  margin-top: 0;
+  justify-content: right;
+  margin-left: 500px;
+  text-shadow:  -10px -10px 5px gray;
 }
 
 .SQL  {
@@ -278,11 +277,11 @@ font-family: sans-serif;
   background-color: black;
   color:  rgb(215, 206, 206);
   white-space: nowrap ;
-padding: 10px 15px;
-border-radius: 7px;
-visibility: hidden;
-opacity: 0;
-transition: opacity 0.5s ease;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 .SQLtext::before{
   content: "";
@@ -301,11 +300,11 @@ transition: opacity 0.5s ease;
 .CSS {
   width: 500px;
   height: 10px;
-display: flex;
-align-items: bottom;
-justify-content: right;
-margin-left: 200px;
-text-shadow:  -10px -10px 5px gray;
+  display: flex;
+  align-items: bottom;
+  justify-content: right;
+  margin-left: 200px;
+  text-shadow:  -10px -10px 5px gray;
 }
 
 .CSS  {
@@ -322,15 +321,14 @@ font-family: sans-serif;
   position: absolute;
   left: 50%;
   top: 0;
- /* transform: rotateX('50%');*/
   background-color: black;
   color:  rgb(215, 206, 206);
   white-space: nowrap ;
-padding: 10px 15px;
-border-radius: 7px;
-visibility: hidden;
-opacity: 0;
-transition: opacity 0.5s ease;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 .CSStext::before {
   content: "";
@@ -350,9 +348,9 @@ transition: opacity 0.5s ease;
  
   width: 300px;
   height: 300px;
- background-size: cover;
- background-position: initial ; 
- box-shadow: 30 30 20 #818589;
+  background-size: cover;
+  background-position: initial ; 
+  box-shadow: 30 30 20 #818589;
 }
 
 .pictures {
@@ -377,9 +375,9 @@ transition: opacity 0.5s ease;
   }
 
 #picture-2 {
-    display: flex;
-    background-color: rgb(156, 116, 116);
-    background-size: cover;
+   display: flex;
+   background-color: rgb(156, 116, 116);
+   background-size: cover;
 
    
 }
@@ -397,7 +395,7 @@ transition: opacity 0.5s ease;
     display: flex;
     background-color: rgb(156, 116, 116);
     background-size: 300px ; 
-     background-size: cover;
+    background-size: cover;
     background-position: center;
   
 }
@@ -415,11 +413,11 @@ transition: opacity 0.5s ease;
   height: 100px;
   font-size: 20px;
   display: flex;
-    justify-content: space-between;
-    padding: 1%;
-    background-color: #a8b1ba ;
-    color: rgb(51, 46, 46);
-    font-style: italic;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #a8b1ba ;
+  color: rgb(51, 46, 46);
+  font-style: italic;
 }
 
 
